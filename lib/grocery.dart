@@ -97,7 +97,7 @@ class _GroceryState extends State<Grocery> {
                             IconButton(onPressed: (){
                               object.deleteTask(object.list_item[index]);
                             },
-                                icon: Icon(Icons.close,color: Colors.blueGrey.shade600,)
+                                icon: Icon(Icons.delete,color: Colors.blueGrey.shade600,)
                             )
                           ],
                         ),
